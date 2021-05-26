@@ -109,8 +109,32 @@ body {
   overflow: hidden;
 }
 
-.socials-centered {
+.list-inline {
   text-align: center;
   padding-left: 0px;
   size: 25px;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.list-inline ul li {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  font-size: 40px;
+  background-color: #E89D7A;
+  color: #F4F1DE;
+}
+
+a {
+  background-color: #E89D7A;
+  color: #F4F1DE;
+  padding: 10px 40px;
+  border-radius: 5%;
+}
+
+.list-inline a:hover {
+  background-color: none;
+  color:red;
 }
